@@ -1,0 +1,25 @@
+### Reflection: Object-Oriented Programming vs Functional Programming
+
+In Assignment 1, I followed an Object-Oriented Programming (OOP) approach, encapsulating all logic within a `StyleChecker` class. This provided a clear structure for related operations like analyzing file structure, extracting DocStrings, and managing state through class attributes.
+
+For Assignment 2, I adopted a Functional Programming (FP) approach. Here’s how it differed:
+
+#### Key Adjustments
+1. State Management:
+   - In OOP, I stored state in class attributes. For FP, I removed shared states and designed pure functions that return outputs directly.
+   
+2. Modular Design:
+   - Each function was built to perform a specific task (e.g., `extract_docstrings()` for DocStrings). This modularity made debugging and testing easier.
+
+3. Immutability:
+   - Avoided modifying global variables by ensuring each function produces its output independently.
+
+4. Error Handling:
+   - I added input validation and exception handling, improving the script's robustness compared to Assignment 1.
+
+#### Benefits of Functional Programming
+- **Easier Testing**: Functions are independent and stateless, making unit testing straightforward.
+- **Improved Readability**: Code is more modular and less complex.
+- **Reusability**: Functions can be reused without modification.
+
+Overall, Functional Programming encouraged me to think differently about problem-solving by focusing on modularity and independence rather than state management.

@@ -1,0 +1,34 @@
+File Structure
+Total lines: 22
+
+Imports
+import os
+import sys
+
+Classes
+CompliantClass
+Noncompliantclass
+
+Functions
+compliant_function
+nonCompliantFunction
+
+DocStrings
+CompliantClass: """This is a sample class with a compliant name."""
+compliant_method: """A method with proper naming and type annotations."""
+non_compliantMethod: DocString not found
+Noncompliantclass: """This class has a non-compliant name."""
+compliant_method: """A properly named method with type annotations."""
+compliant_function: """A top-level function with proper naming and annotations."""
+nonCompliantFunction: DocString not found
+
+Type Annotation Check
+non_compliantMethod
+nonCompliantFunction
+
+Naming Convention Check
+Non-Compliant Classes
+Noncompliantclass
+
+Non-Compliant Functions
+nonCompliantFunction
